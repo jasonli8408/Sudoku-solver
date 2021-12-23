@@ -166,8 +166,7 @@ public class gui extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 JOptionPane.showMessageDialog(null, "you have pressed the Check Result button");
-
-                if ( solvedBoard == board) {
+                if (solvedBoard == board) {
                     JOptionPane.showMessageDialog(null, "nice! you did it!");
                 } else {
                     JOptionPane.showMessageDialog(null, "try again!");
@@ -228,12 +227,7 @@ public class gui extends JFrame {
         frame.add(b2,BorderLayout.SOUTH);
         frame.pack();
         frame.setVisible(true);
-
     }
-    public static void main(String[] args) {
-        new gui();
-    }
-    //yes push dwd w
 
 
     @Override
