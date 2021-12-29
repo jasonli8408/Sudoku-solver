@@ -2,7 +2,7 @@
 
 How to use our program:
 - Run the main class
-- Enter some numbers, or no numbers, and click "Create New Puzzle" to initialize the game
+- Enter some numbers, or no numbers, and click "Create New Puzzle" to initialize the game. Make sure the numbers on the board before creating the new puzzle doesn't violate sudoku rules.
 - Fill out the boxes and click "Check Result" to see whether your answer is correct
 - During your process, you can click "Reset" to get back to game initial state
 - You can click on "Solve" to directly get answer, performed by our **Sudoku backtracking algorithm**
